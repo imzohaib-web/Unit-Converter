@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metric / Imperial Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <header class="app-header">
+      <h1>Metric/Imperial Unit Conversion</h1>
+
+      <input 
+        type="number" 
+        id="input-value" 
+        placeholder="Enter value" 
+      />
+
+      <button id="convert-btn">Convert</button>
+    </header>
+
+    <main class="results-container">
+
+      <div class="card">
+        <h2>Length (Meter/Feet)</h2>
+        <p id="length-result">
+          
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Volume (Liters/Gallons)</h2>
+        <p id="volume-result">
+          
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Mass (Kilograms/Pounds)</h2>
+        <p id="mass-result">
+          
+        </p>
+      </div>
+
+    </main>
+
+  </div>
+<script src="scripts.js"></script>
+</body>
+</html>

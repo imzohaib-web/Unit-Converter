@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #e9f1ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 420px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.app-header {
+  background: linear-gradient(135deg, #5b3df5, #6c63ff);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.app-header h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#input-value {
+  width: 100%;
+  padding: 12px;
+  font-size: 28px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+#input-value::placeholder {
+  color: #ddd;
+}
+
+#convert-btn {
+  background: white;
+  color: #5b3df5;
+  border: none;
+  padding: 10px 22px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#convert-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Results Section */
+.results-container {
+  padding: 20px;
+}
+
+.card {
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
